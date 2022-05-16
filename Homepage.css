@@ -1,0 +1,115 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5rem;
+    text-align: center;
+    }
+    nav li {
+    display: inline-block;
+    }
+    nav {
+    border: 1px solid #333;
+    margin: 1rem auto;
+    background-color: #eee;
+    background-image: url("https://assets.codepen.io/296057/lil-graydots.png");
+    border-bottom: 5px solid #00bff3;
+    border-top: 5px solid #00bff3;
+    }
+    nav a {
+    color: #00bff3;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: block;
+    padding: 0.5rem 1rem;
+    }
+    nav a:focus {
+    background-color: #f0c808;
+    color: black;
+    }
+    nav a:hover {
+    background-color: #f0c808;
+    color: #ff583d;
+    background-image: url("https://assets.codepen.io/296057/lil-yellowdots.png");
+    }
+    html {
+    box-sizing: border-box;
+    }
+    *:before,
+    *:after {
+    box-sizing: inherit;
+    }
+    body {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+    margin: 9;
+    padding: 0;
+    font-size: 3.0rem;
+    text-align: center
+    }
+    footer {  
+    position: fixed;  
+    left: 10px;  
+    bottom: 5px;  
+    right: 10px;   
+    width: 95%;  
+    background-color: blue;  
+    color: white;  
+    text-align: center;  
+    font-size: 1.0rem
+    }  
+    
+    .pac{
+    width:500px;
+    height:400;
+    border:1px;
+    float:right;
+    }
+    caption{color:rgb(195, 255, 192)}
+    .hi{font-size: 2rem;font-weight:bolder;}
+    h3{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        color: rgba(4, 9, 9, 0.5);
+        font-weight: 50;
+        font-size: 40px;
+        line-height: 24px;
+        padding-bottom: 30px;
+        padding-left: 170px;
+        text-align: center;
+        width: 70%;
+        font-weight:bolder
+        }
+    h1{font-size: 80px;font-weight:bolder}
+    h2{font-size: 50px}
+    .logo{float:left}
+    h4{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        color: rgba(4, 9, 9, 0.5);
+        font-weight: 50;
+        font-size: 40px;
+        padding-left: 170px;
+        line-height: 24px;
+        padding-bottom: 30px;
+        text-align: center;
+        width: 70%;
+        font-weight:bolder
+        }
+    p{font-size: 25px;padding-right: 10%;padding-left: 10%;}
+    h5{font-size: 30px;color: #f1780e;}
+    .M{font-size: 25px;padding-right: 10%;padding-left: 10%;}
+    .D{background-color:lightblue;}
+    .F{background-color: beige;}
+    .E{background-color: darkgrey;}
+    .N1{float: left;}
+    .N2{float: right;}
+h6{color: #fafafa;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135 }
+    .T{background-color: antiquewhite;}
+    .L{padding-bottom: 180px;}
+    .button{font-size: 30px;}
